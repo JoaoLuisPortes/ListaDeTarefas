@@ -17,11 +17,11 @@ public class Tarefas {
 	
 	static void adicionarTarefa(ArrayList<Tarefas> arrayDeTarefas){
 		Scanner leia = new Scanner(System.in);
-		System.out.print("Adicione o nome da Tarefa; ");
+		System.out.print("\nAdicione o nome da Tarefa: ");
 		String nome = leia.nextLine();
-		System.out.print("Adcione o horário da Tarefa; ");
+		System.out.print("Adcione o horário da Tarefa: ");
 		String horario = leia.nextLine();
-		System.out.print("Adcione a data da Tarefa; ");
+		System.out.print("Adcione a data da Tarefa: ");
 		String data = leia.nextLine();
 		
 		Tarefas novaTarefa = new Tarefas();
